@@ -6,6 +6,7 @@ fetch("https://jsonplaceholder.typicode.com/todos")
       .map((todo) => ({ userId: todo.userId, title: todo.title })); 
     console.log(uncompleted);
   })
+  
   .catch(function (err) {
     console.log(err);
   });
